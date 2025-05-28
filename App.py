@@ -7,13 +7,17 @@ Original file is located at
     https://colab.research.google.com/drive/1Vq7pBREU-TvlAcFTtCrATWsAEmOqLroe
 """
 
+
 import streamlit as st
 import pandas as pd
 import numpy as np
 import joblib
 from sklearn.datasets import load_iris
 
-st.set_page_config(page_title="App")
+st.set_page_config(page_title="Halaman2")
+st.title("Tes")
+st.sidebar.header("Halaman2")
+
 # Load model once
 @st.cache_resource
 def load_model():
