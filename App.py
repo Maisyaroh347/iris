@@ -13,6 +13,7 @@ import numpy as np
 import joblib
 from sklearn.datasets import load_iris
 
+st.set_page_config(page_title="App")
 # Load model once
 @st.cache_resource
 def load_model():
